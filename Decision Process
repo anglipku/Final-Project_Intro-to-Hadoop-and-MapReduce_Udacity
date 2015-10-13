@@ -1,0 +1,6 @@
+Yes, it is.  The reason is clear when we consider the 3V's of Big Data:
+1. The size of data from an active community site can be large, which makes parallel processing on systems like Hadoop necessary.
+2. When analyzing user behavior, data may come from different sources, e.g. post info, user info, etc.  They may have different format.  So they cannot be stored conveniently in traditional relational databases.  However, they can be saved on Hadoop.
+3. Since it's an active site, the speed at which new data is generated can be high.  The volume of data will grow and stay large.
+
+All of these calls for the use of MapReduce/ Hadoop to process the data.
