@@ -1,0 +1,5 @@
+I think some other questions that we can use MapReduce on this dataset to answer are:
+
+1. What is the correlation between title length and question+answer length ?
+
+2. The average length of posts (including questions and answers) under each tagname.
