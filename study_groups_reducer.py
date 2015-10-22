@@ -11,7 +11,7 @@ for line in sys.stdin:
 
     post_id, post_type, author_id = data
 
-    if oldQuestionNode and post_type[0] == "q": # i.e. it's a question
+    if oldQuestionNode : # i.e. it's a question
        # print the old question's node id, and the list of student id
        print oldQuestionNode, "\t", Student_IDs
 
